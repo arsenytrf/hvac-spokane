@@ -1,7 +1,7 @@
 import type { BusinessConfig } from "@/types";
 
-const u = (id: string, w = 800, h = 600) =>
-  `https://lh3.googleusercontent.com/gps-cs-s/APNQkAEUdvKKneSmFjyO0MizeeyI_fTjUf2xVQ6hNIhXjTVy2iMY8D8OPkMkEXarG4gT48RKccmlkzRL32nNvOVlPMp3HW03Z3ifaJriLJLYOg_qf61axxDO0g_siuZ4sBKwN6rqR_XsyWtfQpYF=w800-h600-k-no"hvac-spokane",
+export const config: BusinessConfig = {
+  slug: "hvac-spokane",
   company: {
     name: "HVAC Contractor And Services",
     shortName: "HVAC Spokane",
@@ -50,7 +50,7 @@ const u = (id: string, w = 800, h = 600) =>
         "Thermostat setup & programming",
         "Post-install performance testing",
       ],
-      image: u("photo-1585771724684-38269d6639fd"),
+      image: "",
     },
     {
       title: "Heating Systems",
@@ -65,7 +65,7 @@ const u = (id: string, w = 800, h = 600) =>
         "Boiler installation",
         "Zoning systems",
       ],
-      image: u("photo-1631545806609-b5e9a4a6e2d1"),
+      image: "",
     },
     {
       title: "Furnace Repair",
@@ -80,7 +80,7 @@ const u = (id: string, w = 800, h = 600) =>
         "Thermocouple replacement",
         "Gas valve repair",
       ],
-      image: u("photo-1581094271901-8022df4466f9"),
+      image: "",
     },
     {
       title: "Duct Cleaning",
@@ -95,7 +95,7 @@ const u = (id: string, w = 800, h = 600) =>
         "Vent cover cleaning",
         "Before & after airflow testing",
       ],
-      image: u("photo-1585771724684-38269d6639fd"),
+      image: "",
     },
     {
       title: "Heat Pumps",
@@ -110,7 +110,7 @@ const u = (id: string, w = 800, h = 600) =>
         "Seasonal maintenance plans",
         "Rebate & incentive guidance",
       ],
-      image: u("photo-1631545806609-b5e9a4a6e2d1"),
+      image: "",
     },
     {
       title: "Thermostat Installation",
@@ -125,7 +125,7 @@ const u = (id: string, w = 800, h = 600) =>
         "Compatibility verification",
         "App setup & training",
       ],
-      image: u("photo-1581094271901-8022df4466f9"),
+      image: "",
     },
     {
       title: "AC Maintenance",
@@ -140,7 +140,7 @@ const u = (id: string, w = 800, h = 600) =>
         "Drain line clearing",
         "Performance benchmarking",
       ],
-      image: u("photo-1585771724684-38269d6639fd"),
+      image: "",
     },
     {
       title: "Emergency HVAC Repair",
@@ -155,7 +155,7 @@ const u = (id: string, w = 800, h = 600) =>
         "Priority parts sourcing",
         "After-hours service",
       ],
-      image: u("photo-1581094271901-8022df4466f9"),
+      image: "",
     },
   ],
   reviews: [
@@ -208,7 +208,7 @@ const u = (id: string, w = 800, h = 600) =>
     { src: "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHwZhjpT73aq7X0gNIfhjiyAY-nuJtDBu6bchDTr3_yn9a2eY_ieJ9yq_Ta_ViEMnf958j_mbMsylztov4YIKtzYM15MX0tAZlARG75WFsSWlT8ivRRJKiyx3orWtkWVkbiViyD6ogX0pAl=w1200-h900-k-no", alt: "Project work", tag: "Residential" },
     { src: "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFDEpTVqZa7wZEzER4CvruUyl21TjUskHoq9k_Ga1OCO5QXsMB_I1nEDPX3tjoS1AYkt0wElH6L89Zw1KM25NZhCXIiBoYK9mm012RNS6LRclFm9ofz_ZdTmM-dbczG5OqCeeiu_jFQqHAx=w1200-h900-k-no", alt: "Project work", tag: "Remodel" },
   ],
-  heroImage: "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEUdvKKneSmFjyO0MizeeyI_fTjUf2xVQ6hNIhXjTVy2iMY8D8OPkMkEXarG4gT48RKccmlkzRL32nNvOVlPMp3HW03Z3ifaJriLJLYOg_qf61axxDO0g_siuZ4sBKwN6rqR_XsyWtfQpYF=w1600-h1200-k-no", 1600, 900),
+  heroImage: "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEUdvKKneSmFjyO0MizeeyI_fTjUf2xVQ6hNIhXjTVy2iMY8D8OPkMkEXarG4gT48RKccmlkzRL32nNvOVlPMp3HW03Z3ifaJriLJLYOg_qf61axxDO0g_siuZ4sBKwN6rqR_XsyWtfQpYF=w1600-h1200-k-no",
   logoImage: "",
   theme: {
     category: "hvac",
