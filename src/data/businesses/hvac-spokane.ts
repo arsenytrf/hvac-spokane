@@ -50,7 +50,7 @@ export const config: BusinessConfig = {
         "Thermostat setup & programming",
         "Post-install performance testing",
       ],
-      image: "",
+      image: "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEUdvKKneSmFjyO0MizeeyI_fTjUf2xVQ6hNIhXjTVy2iMY8D8OPkMkEXarG4gT48RKccmlkzRL32nNvOVlPMp3HW03Z3ifaJriLJLYOg_qf61axxDO0g_siuZ4sBKwN6rqR_XsyWtfQpYF=w1200-h900-k-no",
     },
     {
       title: "Heating Systems",
@@ -65,7 +65,7 @@ export const config: BusinessConfig = {
         "Boiler installation",
         "Zoning systems",
       ],
-      image: "",
+      image: "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEbS28aUBKlsVJPIsFa3dfYH2G8bIGmy1xcUUSOiLD4FNTUqN2kaajbPqk7Ch59BSiic0V48ubbF1P3zR2h37Y5iJTOcncgyImA0FIb0-ZT00ofqd6u82xqE9NxlSBeGtoszieyxtJ-ftY=w1200-h900-k-no",
     },
     {
       title: "Furnace Repair",
@@ -80,7 +80,7 @@ export const config: BusinessConfig = {
         "Thermocouple replacement",
         "Gas valve repair",
       ],
-      image: "",
+      image: "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHwZhjpT73aq7X0gNIfhjiyAY-nuJtDBu6bchDTr3_yn9a2eY_ieJ9yq_Ta_ViEMnf958j_mbMsylztov4YIKtzYM15MX0tAZlARG75WFsSWlT8ivRRJKiyx3orWtkWVkbiViyD6ogX0pAl=w1200-h900-k-no",
     },
     {
       title: "Duct Cleaning",
@@ -95,7 +95,7 @@ export const config: BusinessConfig = {
         "Vent cover cleaning",
         "Before & after airflow testing",
       ],
-      image: "",
+      image: "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFDEpTVqZa7wZEzER4CvruUyl21TjUskHoq9k_Ga1OCO5QXsMB_I1nEDPX3tjoS1AYkt0wElH6L89Zw1KM25NZhCXIiBoYK9mm012RNS6LRclFm9ofz_ZdTmM-dbczG5OqCeeiu_jFQqHAx=w1200-h900-k-no",
     },
     {
       title: "Heat Pumps",
@@ -110,7 +110,7 @@ export const config: BusinessConfig = {
         "Seasonal maintenance plans",
         "Rebate & incentive guidance",
       ],
-      image: "",
+      image: "https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=800&h=600&fit=crop&q=80",
     },
     {
       title: "Thermostat Installation",
@@ -125,7 +125,7 @@ export const config: BusinessConfig = {
         "Compatibility verification",
         "App setup & training",
       ],
-      image: "",
+      image: "https://images.unsplash.com/photo-1541123603104-512919d6a96c?w=800&h=600&fit=crop&q=80",
     },
     {
       title: "AC Maintenance",
@@ -140,7 +140,7 @@ export const config: BusinessConfig = {
         "Drain line clearing",
         "Performance benchmarking",
       ],
-      image: "",
+      image: "https://images.unsplash.com/photo-1503387762-592deb58ef4e?w=800&h=600&fit=crop&q=80",
     },
     {
       title: "Emergency HVAC Repair",
@@ -155,7 +155,7 @@ export const config: BusinessConfig = {
         "Priority parts sourcing",
         "After-hours service",
       ],
-      image: "",
+      image: "https://images.unsplash.com/photo-1581094794329-c8112a89af12?w=800&h=600&fit=crop&q=80",
     },
   ],
   reviews: [
@@ -207,6 +207,14 @@ export const config: BusinessConfig = {
     { src: "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEbS28aUBKlsVJPIsFa3dfYH2G8bIGmy1xcUUSOiLD4FNTUqN2kaajbPqk7Ch59BSiic0V48ubbF1P3zR2h37Y5iJTOcncgyImA0FIb0-ZT00ofqd6u82xqE9NxlSBeGtoszieyxtJ-ftY=w1200-h900-k-no", alt: "Project work", tag: "Construction" },
     { src: "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHwZhjpT73aq7X0gNIfhjiyAY-nuJtDBu6bchDTr3_yn9a2eY_ieJ9yq_Ta_ViEMnf958j_mbMsylztov4YIKtzYM15MX0tAZlARG75WFsSWlT8ivRRJKiyx3orWtkWVkbiViyD6ogX0pAl=w1200-h900-k-no", alt: "Project work", tag: "Residential" },
     { src: "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFDEpTVqZa7wZEzER4CvruUyl21TjUskHoq9k_Ga1OCO5QXsMB_I1nEDPX3tjoS1AYkt0wElH6L89Zw1KM25NZhCXIiBoYK9mm012RNS6LRclFm9ofz_ZdTmM-dbczG5OqCeeiu_jFQqHAx=w1200-h900-k-no", alt: "Project work", tag: "Remodel" },
+    { src: "https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=800&h=600&fit=crop&q=80", alt: "Project work", tag: "Interior" },
+    { src: "https://images.unsplash.com/photo-1541123603104-512919d6a96c?w=800&h=600&fit=crop&q=80", alt: "Project work", tag: "Framing" },
+    { src: "https://images.unsplash.com/photo-1503387762-592deb58ef4e?w=800&h=600&fit=crop&q=80", alt: "Project work", tag: "Roofing" },
+    { src: "https://images.unsplash.com/photo-1581094794329-c8112a89af12?w=800&h=600&fit=crop&q=80", alt: "Project work", tag: "Exterior" },
+    { src: "https://images.unsplash.com/photo-1621905252507-b35492cc74b4?w=800&h=600&fit=crop&q=80", alt: "Project work", tag: "Remodel" },
+    { src: "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=800&h=600&fit=crop&q=80", alt: "Project work", tag: "Interior" },
+    { src: "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=800&h=600&fit=crop&q=80", alt: "Project work", tag: "Roofing" },
+    { src: "https://images.unsplash.com/photo-1600566753376-12c8ab7fb75b?w=800&h=600&fit=crop&q=80", alt: "Project work", tag: "Construction" },
   ],
   heroImage: "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEUdvKKneSmFjyO0MizeeyI_fTjUf2xVQ6hNIhXjTVy2iMY8D8OPkMkEXarG4gT48RKccmlkzRL32nNvOVlPMp3HW03Z3ifaJriLJLYOg_qf61axxDO0g_siuZ4sBKwN6rqR_XsyWtfQpYF=w1600-h1200-k-no",
   logoImage: "",
